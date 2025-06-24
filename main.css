@@ -75,6 +75,7 @@
         background-position: center;
         background-size: cover;
         height: 692px;
+        
     
       }
       .page3{
@@ -82,10 +83,12 @@
         background-position: center;
         background-size: cover;
         height:692px ;
+       
       }
       .photo1-3{
         display: flex;
-        margin: 12px 12px
+        margin: 12px 12px;
+        width: 100%;
       }
       .products{
         display: flex;
@@ -95,7 +98,7 @@
         ;
       }
       .product{
-        width: 100%px;
+   width: calc(50% - 6px);
         background-position: center;
         background-size: cover ;
       }
@@ -106,4 +109,6 @@
 
 
       }
-        
+      .product img{
+        width: 100%
+      }
