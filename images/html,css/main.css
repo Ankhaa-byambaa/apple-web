@@ -27,7 +27,7 @@
  }
 
  .page1-section3 {
-   background-image: url(images/Figure.png);
+   background-image: url(../images/Figure.png);
    height: 692px;
    background-size: cover;
    background-position: center;
@@ -80,32 +80,26 @@
  }
 
  .page2 {
-   background-image: url(images/figure2.png);
-   background-position: center;
-   background-size: cover;
-   height: 692px;
+   /* zurgiin hemjee ni delgstsneesee hamaaraltai bolgoh hemjigdehuun */
 
 
  }
 
  .page3 {
-   background-image: url(images/figure3.png);
-   background-position: center;
-   background-size: cover;
-   height: 692px;
-
+   /* bas adil */
  }
 
  .photo1-3 {
    display: flex;
    margin: 12px 12px;
    width: 100%;
+
  }
 
  .products {
    display: flex;
    gap: 12px;
-   margin: 0 12px;
+   margin: 12px 12px;
    flex-wrap: wrap;
    ;
  }
@@ -121,17 +115,15 @@
    gap: 16px;
    background-size: cover;
    margin: 12px 0;
-   width: 3782px;
    overflow-x: scroll;
 
- }
-
- .page5-section2 {
-   background-image: url(images/flymetothemoon.jpg);
-   width: 1250px;
 
 
  }
+
+
+
+ .page5-section2 {}
 
  .button1 {
    font-size: 17px;
@@ -157,7 +149,7 @@
 
 
 
- .product img {
+ .products img {
    width: 100%
  }
 
@@ -165,50 +157,85 @@
    width: 220px;
    height: 8px;
    display: flex;
-   gap:10px
+   gap: 10px
+ }
+
+ .page6 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   width: 1920px;
+
+
 
 
  }
- .page6{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap:10px;
-  width: 1920px;
-  overflow-x: scroll;
 
+ .page6-scroll {
+   overflow: scroll;
+
+ }
+
+
+
+ .page6-section1 {
+
+   overflow: scroll;
  }
 
  .page6-section2 {
-  background-image: url(images/pic1.jpg);
-  width:417px;
-  height:236px ;
+   background-image: url(../images/pic1.jpg);
+   width: 417px;
+   height: 236px;
+
  }
+
  .page6-section3 {
-  background-image: url(images/pic2.jpg);
-  width:417px;
-  height:236px ;
-  background-repeat: no-repeat;
+   background-image: url(../images/pic2.jpg);
+   width: 417px;
+   height: 236px;
+   background-repeat: no-repeat;
  }
+
  .page6-section4 {
-  background-image: url(images/pic3.jpg);
-  width:417px;
-  height:236px ;
+   background-image: url(../images/pic3.jpg);
+   width: 417px;
+   height: 236px;
  }
+
  .page6-section5 {
-  background-image: url(images/pic4.jpg);
- width:417px;
-  height:236px ;
-}
+   background-image: url(../images/pic4.jpg);
+   width: 417px;
+   height: 236px;
+ }
+
  .page6-section6 {
-  background-image: url(images/pic5.jpg);
-  width:417px;
-  height:236px ;
-  background-repeat: no-repeat;
+   background-image: url(../images/pic5.jpg);
+   width: 417px;
+   height: 236px;
+   background-repeat: no-repeat;
  }
- @media(max-width:768px){
-  .products{flex-direction: column;}
-  .product{
-    width:100%
-  }
+
+
+ @media(max-width:768px) {
+   .products:nth-child(1) {
+     width: 100%
+   }
+
+   .products {
+     width: 50%;
+     flex-wrap: wrap;
+   }
+
+   .page3 {
+     display: none
+   }
+
+   .products:nth-child(2) {
+     display: none;
+   }
+
  }
+
+ @media (max-width:390px) {}
