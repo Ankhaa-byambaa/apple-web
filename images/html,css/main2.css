@@ -1,5 +1,14 @@
+.main-menu {
+    background-color: #F5F5F7CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    gap: 24px;
+}
+
 .menu {
-    color: #000000;
+
     font-size: 12px;
     font-family: inter;
 }
@@ -109,5 +118,3 @@
     color: #1D1D1F;
     font-size: 26px;
     font-family: Inter;
-
-}
