@@ -1,5 +1,5 @@
 .main-menu {
-    background-color:#F5F5F7CC ;
+    background-color: #F5F5F7CC;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,8 +8,146 @@
 }
 
 .menu {
-    
+
     font-size: 12px;
+    font-family: inter;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #F5F5F7CC;
+
+}
+
+.section1 {
+    color: #1D1D1F;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    font-family: inter;
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+
+}
+
+.container {
+    background-image: url(../images/Background\ \(9\).png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75px;
+}
+
+.section2__pic1 {
+    background-color: #F5F5F7;
+    background-image: url(../images/Section.png);
+    background-size: cover;
+    height: 100px;
+    max-width: 100%;
+
+
+
+
+}
+
+.section2__pictures {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    overflow: scroll;
+    scroll-snap-align: start;
+
+}
+
+.section2__pictures-title {
+    font-size: 14px;
+    font-family: inter;
+    color: #1D1D1F;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+
+/* .section2__pic2 {
+    background-color: #F5F5F7;
+    background-image: url(../images/ProductsList.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 146px; */
+
+
+/* } */
+
+.section3__title {
+    background-image: url(../images/SectionTitle\ \(1\).png);
+    background-color: #F5F5F7;
+    height: 34px;
+    background-repeat: no-repeat;
+    margin-left: 60px;
+
+}
+
+.section3-pictures {
+    display: flex;
+    overflow: scroll;
+    gap: 20px;
+    scroll-snap-align: start;
+    position: relative;
+
+}
+
+.section3-pic1,
+.section3-pic2,
+.section3-pic3,
+.section3-pic4 {
+    display: flex;
+    flex-shrink: 0;
+    margin-left: 40px;
+
+}
+
+
+.section3-pic1-title1,
+.section3-pic1-title2,
+.section3-pic1-title3 {
+    position: absolute;
+    font-family: inter;
+}
+
+.section3-pic1-title1 {
+
+    color: #B64400;
+    font-size: 12px;
+    top: 40px
+}
+
+.section3-pic1-title2 {
+
+    color: #1D1D1F;
+    font-size: 26px;
     font-family: Inter;
-    color: #000000;
+    top: 65px;
+
+}
+
+.section3-pic1-title3 {
+
+    color: #1D1D1F;
+    font-size: 18px;
+    font-family: Inter;
+    top: 115px;
+}
+
+.section5,
+.section6,
+.section7,
+.section8,
+.section4 {
+    display: flex;
+
 }
